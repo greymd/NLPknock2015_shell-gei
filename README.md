@@ -1,1 +1,1 @@
-# NLPknock2015_shell-gei
+# NLPknock2015_shell-gei言語処理100本ノック2015をシェル芸で頑張って解いてみます。http://www.cl.ecei.tohoku.ac.jp/nlp100/#
