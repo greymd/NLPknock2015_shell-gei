@@ -1,0 +1,1 @@
+echo "I couldn't believe that I could actually understand what I was reading : the phenomenal power of the human mind ." | flat 1 | flat each ifs="" ofs="\t" | egison -F1sc -T -m '1#(match %1 (list string) {[<cons $a <join (& ?1#(gt? (length %1) 2) $b) <cons $c <nil>>>> [a (randomize b) c]] [_ %1]} )' | tr -d '"\t' | flat
